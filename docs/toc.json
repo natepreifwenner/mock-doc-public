@@ -1,0 +1,84 @@
+[{
+        "text": "Basic Features",
+        "link": "/BasicFeatures.md",
+        "links": [
+            "/JavascriptExample/JavascriptExample.md",
+            "/JavascriptExample/YmalExample.md",
+            "/JavascriptExample/Troubleshooting.md",
+            "/Testing.md"
+        ],
+        "children": [{
+                "text": "Javascript",
+                "link": "/JavascriptExample/JavascriptExample.md",
+                "links": ["/JavascriptExample/YmalExample.md", "/JavascriptExample/Troubleshooting.md"],
+                "children": [{
+                    "text": "YAML",
+                    "link": "/JavascriptExample/YmalExample.md",
+                    "links": ["/JavascriptExample/Troubleshooting.md"],
+                    "children": [{
+                        "text": "Troubleshooting",
+                        "link": "/JavascriptExample/Troubleshooting.md",
+                        "links": [],
+                        "children": []
+                    }]
+                }]
+            },
+            {
+                "text": "Testing child not in folder",
+                "link": "/Testing.md",
+                "links": [],
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "Advanced Features",
+        "link": "/AdvancedFeatures/AdvancedFeatures.md",
+        "links": [
+            "/AdvancedFeatures/TableExample/TableExample.md",
+            "/AdvancedFeatures/TableExample/AnchorExample.md"
+        ],
+        "children": [{
+            "text": "Tables",
+            "link": "/AdvancedFeatures/TableExample/TableExample.md",
+            "links": ["/AdvancedFeatures/TableExample/AnchorExample.md"],
+            "children": [{
+                "text": "Anchors",
+                "link": "/AdvancedFeatures/TableExample/AnchorExample.md",
+                "links": [],
+                "children": []
+            }]
+        }]
+    },
+    {
+        "text": "Other Links",
+        "links": ["/Products/LawnMower.md", "https://www.google.com"],
+        "children": [{
+                "text": "someproducts",
+                "links": ["/Products/LawnMower.md"],
+                "children": [{
+                    "text": "Lawn Mower",
+                    "link": "/Products/LawnMower.md",
+                    "links": [],
+                    "children": {
+                        "text": "Lawn Mower",
+                        "link": "/Products/LawnMower.md"
+                    }
+                }]
+            },
+            {
+                "text": "external links",
+                "links": ["https://www.google.com"],
+                "children": [{
+                    "text": "Google.com",
+                    "link": "https://www.google.com",
+                    "links": [],
+                    "children": {
+                        "text": "Google.com",
+                        "link": "https://www.google.com"
+                    }
+                }]
+            }
+        ]
+    }
+]
